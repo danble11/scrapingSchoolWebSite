@@ -8,12 +8,12 @@ from bs4 import BeautifulSoup
 import schoolList
 import exeptionList
 
-consumer_key = 'UmPKnpStvqROoSK1C9ZPoz4xb'
-consumer_secret = '6D03uEESvC6cfNjeGao98f7kkonjnRIxroIVNSaDEZ8qoIA67S'
-access_token = '1531825263881129984-w2rq2lgHywJi7DXy4MvFqaJS9s3LcJ'
-access_token_secret = 'IQ7xt0U0s4OGJVAS4hHUZpBLry6HOXQBkMUSL3NeBLOfK'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = 'I'
 
-tewwtdedDaraPath = '/home/fumanishizawa/SchoolPageCrowring/TweetedContents.csv'
+tewwtdedDaraPath = '/SchoolPageCrowring/TweetedContents.csv'
 
 def tweetNewinfo(newInfo,schoolName):
     client = tweepy.Client(
